@@ -1,0 +1,1110 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+/* RESPONSIVE WEBSITE USING MEDIA QUERY WHERE MAX-WIDTH:360px*/
+
+.clovedental-nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+    background-color: #FFF1E6;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 0 2px cyan;
+    width: 1317px;;
+
+}
+
+.nav-middle>ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+li {
+    border-right: solid 1px;
+    padding-right: 10px;
+}
+li:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.nav-last {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.BookAppointment,
+.Help {
+    border: solid 1px;
+    border-radius: 120px;
+    padding: 10px;
+    width: 150px;
+    font-size: 12px;
+}
+
+.BookAppointment {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-color: red;
+    background-color: #F8943F;
+    font-weight: bold;
+    color: white;
+
+}
+.BookAppointment:hover,.Help:hover{
+    border-color: cyan;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+
+.Help {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 50px;
+    width: calc(100%);
+    border-color: #FBBE9C;
+}
+
+/*MEDIA QUERY FOR PHONE AND TABLET FOR NAVBAR*/
+
+@media only screen and (max-width:360px) {
+.clovedental-navbar{
+    margin: 0;
+    padding: 0;
+}
+
+    .clovedental-nav{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+        width: 327px;
+        
+    }
+    .clovedental-nav>.nav-middle>ul{
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+    .clovedental-nav>.nav-middle>ul>li{
+        
+        flex-direction: column;
+        border: none;
+    }
+
+    .clovedental-nav>.nav-middle>ul>li:hover{
+        color:orange;
+        cursor: pointer;
+    }
+
+    .clovedental-nav>div{
+        display: flex;
+        flex-direction: column;
+    }
+    .BookAppointment,.Help{
+        margin-left: -10px;
+        cursor: pointer;
+        
+        
+    }
+    
+    .BookAppointment:hover{
+        margin-left: -10px;
+        cursor: pointer;
+        border-color: cyan;
+        
+        
+    }
+    .Help{
+        margin-left:-30px;
+    }
+}
+
+
+.slider-img-1 {
+    width: 100%;
+    height: 500px;
+}
+
+/* MEDIA QUERY FOR SLIDER IMAGE*/
+
+
+@media only screen and (max-width:428px) {
+    .slider-img-1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1114px) {
+    .slider-img-1 {
+        width: 100%
+    }
+
+}
+
+
+.clovedental-rating {
+    /* border: solid 1px; */
+    height: 200px;
+    padding: 50px;
+    display: flex;
+    gap: 150px;
+    margin-left: 50px;
+
+}
+
+.rating-1 {
+    /* border: solid 1px; */
+    height: 83px;
+    width: 530px;
+}
+
+.rating-2 {
+    /* border: solid 1px; */
+    height: 183px;
+    width: 494px;
+    display: flex;
+
+}
+
+.rating-h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    size: 40px;
+    line-height: 52px;
+}
+
+.rating-h1-span {
+    color: #EA7D28
+}
+
+.rating-h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    size: 28px;
+    line-height: 36.4px;
+
+}
+
+/*MEDIA QUERY FOR RATING*/
+@media only screen and (max-width:360px) {
+
+    .clovedental-rating {
+        display: flex;
+        flex-direction: column;
+
+        width: 2556x;
+        font-size: 2.5vw;
+        height: 350px;
+        margin: 0;
+        gap: 50px;
+
+    }
+
+    .rating-2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 10px;
+    }
+    .rating-2>svg{
+        margin: 0;
+        padding: 0;
+    }
+
+    #btn-1 {
+        width: 50%;
+    }
+}
+
+
+.input-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 15px;
+
+}
+
+#input1 {
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border-color: #B0B0B0;
+    width: 200px;
+    font-family: Raleway;
+    font-weight: 500;
+    size: 10px;
+    line-height: 14px;
+}
+
+#btn-1 {
+    background-color: #DE6F0D;
+    border: 1px;
+    border-radius: 50px;
+    height: 72px;
+    font-family: Raleway;
+    font-weight: 500;
+    size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+
+}
+
+.clovedental-cards {
+    /* border: solid 1px; */
+    height: 600px;
+    padding-left: 85px;
+    padding-right: 85px;
+
+}
+
+.cards {
+    /* border: solid 1px; */
+    background-color: rgb(241, 245, 218);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.heading-cards {
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    size: 20px;
+    font-size: 30px;
+    line-height: 40px;
+
+}
+
+.card-row1 {
+    display: flex;
+    gap: 36px;
+    padding-left: 36px;
+
+}
+
+.card-row2 {
+    display: flex;
+    gap: 36px;
+    padding-left: 36px;
+}
+
+.card-row1>img {
+    width: 150px;
+}
+
+.card-row2>img {
+    width: 150px;
+}
+
+.ExploreTreatments {
+    display: flex;
+    align-items: center;
+    font-family: Raleway;
+    font-weight: 700;
+    size: 14px;
+    line-height: 21px;
+    text-decoration: solid underline;
+    padding-left: 470px;
+    color: #4D2C19;
+    gap: 10px;
+}
+
+/*MEDIA QUERY FOR CARDS*/
+
+@media only screen and (max-width:360px) {
+    .clovedental-cards {
+        /* border: solid 1px; */
+        margin: 0;
+        height: 2500px;
+
+    }
+
+    .cards {
+
+        width: 220px;
+        margin: auto;
+        font-size: 1vw;
+    }
+
+    .cards,
+    .card-row1,
+    .card-row2 {
+        display: flex;
+        flex-direction: column;
+        font-size: 1vh;
+    }
+
+    .ExploreTreatments {
+        margin-left: 10px;
+        padding-left: 30px;
+    }
+}
+
+
+.contact-form {
+    grid-area: header;
+    /* border: solid 1px; */
+    background-color: #FFF1E6;
+    text-align: center;
+
+}
+
+.contact-form-heading {
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 31px;
+
+    size: 20px;
+    padding-top: 30px;
+
+}
+
+.contact-form-h2 {
+    font-family: sans-serif;
+    font-weight: 400;
+    size: 20px;
+    line-height: 31px;
+    color: #474747;
+
+}
+
+.safety-protocol {
+    grid-area: header1;
+    /* border: solid 1px; */
+    background-color: #FBF5FF;
+    display: flex;
+    gap: 50px;
+    font-family: Raleway;
+    padding: 20px;
+
+
+
+}
+
+.safety-protocol-1>h1 {
+    line-height: 70px;
+
+}
+
+.safety-l {
+    padding-top: 180px;
+}
+
+.docphoto {
+    height: 300px;
+}
+
+.Locate {
+    grid-area: footer;
+    /* border: solid 1px; */
+    background-color: #F5F8FF;
+    text-align: center;
+    font-family: Raleway;
+    line-height: 30px;
+}
+
+.locate-p1 {
+    font-weight: bold;
+}
+
+.locate-p {
+    text-decoration: solid underline;
+}
+
+
+.Explore {
+    grid-area: footer1;
+    /* border: solid 1px; */
+    background-color: #0000001A;
+    text-align: center;
+    font-family: Raleway;
+    line-height: 30px;
+}
+
+.explore-p1 {
+    font-weight: 700;
+
+}
+
+.explore-p {
+    text-decoration: solid underline;
+}
+
+/* MEDIA QUERY FOR EXPLORETREATMENT*/
+
+.img-locate,
+.img-explore {
+    width: 60px;
+}
+
+.clovedental-gridinfo {
+    /* border: solid 1px; */
+    height: 500px;
+    padding-left: 95px;
+    padding-right: 95px;
+    display: grid;
+    gap: 15px;
+    grid-template-areas: 'header header1 header1'
+        'header footer footer1';
+}
+
+.clovedental-gridinfo>div {
+    border-radius: 10px;
+}
+
+.form-clovedental {
+    padding-top: 40px;
+}
+
+.form-clovedental>input {
+    border: solid 1px;
+    border-radius: 50px;
+    height: 30px;
+    padding: 5px;
+}
+
+.form-clovedental>input[type="text"],
+.form-clovedental>input[type="tel"] {
+    border-color: #B0B0B0;
+    padding-left: 10px;
+}
+
+.form-clovedental>input[type="button"] {
+    background-color: #DE6F0D;
+    border: none;
+    color: white;
+    padding-left: 30px;
+    padding-right: 14px;
+}
+
+.form-clovedental>input[type="text"]::placeholder {
+    color: black
+}
+
+@media only screen and (max-width:360px) {
+    .clovedental-gridinfo {
+        /* border: solid 1px;*/
+        height: 1700px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -25px;
+
+    }
+
+
+    .contact-form,
+    .safety-protocol,
+    .Locate,
+    .Explore {
+        margin: 0;
+        padding-right: -100px;
+        width: 200px;
+    }
+
+    .contact-form {
+        width: 240px;
+    }
+
+    .safety-protocol {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+.persons-photo {
+    /* border: solid 1px; */
+    height: 650px;
+    padding-top: 80px;
+}
+
+.photo-heading {
+    font-family: Raleway;
+    font-weight: 700;
+    size: 30px;
+    line-height: 52px;
+    text-align: center;
+}
+
+.photos {
+    /* border: solid 1px; */
+    margin: 50px;
+    display: flex;
+    gap: 24px;
+}
+
+.photos>img {
+    width: 230px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:360px) {
+    .persons-photo {
+        border: solid 1px;
+        height: 2800px;
+    }
+
+    .photos {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.pe-1,
+.pe-2,
+.pe-3 {
+    color: #F6841F;
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+.TeamSP>p,
+.Leading>p,
+.care>p {
+    font-family: Raleway;
+    font-size: 15px;
+}
+
+.clovedental-staff {
+    /* border: solid 1px; */
+    height: 500px;
+    display: flex;
+    gap: 70px;
+    padding-left: 108px;
+    padding-right: 108px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f5e0ce;
+}
+
+.staff {
+    /* border: solid 1px; */
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.staff-heading {
+    font-family: Raleway;
+    font-weight: 700;
+    size: 30px;
+    line-height: 42px;
+
+}
+
+.doctors {
+    /* border: solid 1px; */
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+
+
+.TeamSP,
+.Leading,
+.care {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 60px;
+
+}
+
+.staff>div>img {
+    width: 84px;
+    height: 84px;
+    border-radius: 15px;
+
+}
+
+.doctors-photo {
+    display: flex;
+    gap: 20px;
+
+}
+
+.doctors-photo>img {
+    width: 240px;
+    height: 360px;
+
+}
+
+
+
+#btn2 {
+    width: 230px;
+    border: solid 1px;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: #DE6F0D;
+    color: white;
+    border-color: none;
+    font-family: Raleway;
+}
+
+/* MEDIA QUERY FOR CLOVEDENTAL STAFF*/
+
+@media only screen and (max-width:360px) {
+    .clovedental-staff{
+        /* border:solid 1px; */
+        display: flex;
+        flex-direction: column;
+        height: 2000px;
+        margin:0;
+        padding: 20px;
+    }
+
+    .doctors-photo{
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+    }
+
+    .doctors>input[type="submit"]{
+        margin-left: 50px;
+    }
+
+    
+}
+
+.facility-marquee {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: #FFEFE2;
+}
+
+.facility-marquee>div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+.facility-marquee>div>p>span {
+    color: #C96A34
+}
+
+#exp {
+    width: 100%;
+}
+
+.journeyknowledge {
+    /* border: solid 1px; */
+    height: 526px;
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+    background-color: #FFF9F4;
+}
+
+.Journey {
+    font-family: Raleway;
+    font-weight: 700;
+    size: 40px;
+    line-height: 52px;
+    text-align: center;
+    line-height: 90px;
+}
+
+.treatment-list>ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 90px;
+    gap: 20px;
+
+}
+
+.treatment-list>ul>li {
+    border-right: solid 1px;
+    font-family: Raleway;
+
+
+
+}
+
+.treatment-list>ul>li:nth-child(1) {
+    color: #EA7D28;
+    font-weight: 700;
+
+}
+
+.treatment-list>ul>li:nth-child(7) {
+    border: none;
+}
+
+.DrySockets {
+    /* border: solid 1px; */
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    margin-top: 50px;
+}
+
+.dry-row-1,
+.dry-row-2 {
+    display: flex;
+    gap: 20px;
+}
+
+.dry-row-1>div,
+.dry-row-2>div {
+    display: flex;
+    gap: 10px;
+}
+
+.DrySockets>div>div>p {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.dry-row-1>div>p>span,
+.dry-row-2>div>p>span {
+    line-height: 40px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #7D7D7D;
+}
+
+.ExploreMore {
+    padding-left: 500px;
+    margin-top: 50px;
+    text-decoration: solid underline;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    font-family: Raleway;
+}
+
+/*MEDIA QUERY FOR JOURNEY*/
+
+@media only screen and (max-width:360px){
+    .journeyknowledge{
+        /* border: solid 1px; */
+        height: max-content;
+        display: flex;
+        flex-direction: column  ;
+        margin:0;
+        padding: 0;
+    }
+    .Journey{
+        line-height: 40px;
+    }
+    .treatment-list>ul{
+        display: flex;
+        flex-direction: column;
+        margin-top:15px;
+    }
+    .dry-row-1,.dry-row-2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .ExploreMore{
+        margin-left:80px;
+        padding-left: 10px;
+    }
+}
+
+.brands {
+    margin-top: 50px;
+}
+
+.handshake {
+    width: 1150px;
+}
+
+.trusted-brands {
+    /* border: solid 1px; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: -70px;
+    position: absolute;
+    width: 990px;
+    box-shadow: 0 0 4px rgb(130, 146, 146);
+}
+
+.Trust {
+    font-family: Raleway;
+    line-height: 45px;
+    margin-left: 50px;
+}
+
+.rating {
+    color: #EA7D28
+}
+
+.tr-p {
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+#Companies {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.Appointment,
+.Register {
+    margin-left: 400px;
+}
+
+.Appointment {
+    width: 250px;
+    height: 50px;
+    border: solid 1px;
+    border-radius: 30px;
+    background-color: #DE6F0D;
+    color: white;
+}
+
+.Register {
+    margin-left: 450px;
+    text-decoration: solid underline;
+    font-weight: bold;
+}
+
+/*MEDIA QUERY FOR REGISTER*/
+
+@media only screen and (max-width:360px){
+    .handshake{
+        width:360px;
+    }
+    .trusted-brands{
+        margin-top:60px;
+        width:320px;
+        margin-left: 20px;
+    }
+    #Companies{
+        width:90%;
+    }
+    .Appointment{
+        margin-left: 40px;
+        padding: 0;
+    }
+    .Register
+    {
+        margin-left: 90px;
+        padding: 0;
+    }
+}
+
+.success {
+    /* border: solid 1px; */
+    margin-top: 830px;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+.success-area {
+    /* border: solid 1px; */
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    background-color: #FFF9F4;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+}
+
+.beyond-h1,
+.para-1 {
+    text-align: center;
+    line-height: 50px;
+    font-family: Raleway;
+
+}
+
+.opportunity {
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+}
+
+.opportunity>img {
+    width: 200px;
+
+}
+
+/*MEDIA QUERY FOR SUCCESS*/
+
+@media only screen and (max-width:360px){
+    .success{
+        margin-top:490px;
+        /* border: solid 1px; */
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .opportunity{
+        
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        padding: 0;
+    }
+
+}
+
+.asked-questions {
+    /* border: solid 1px; */
+    height: 350px;
+
+}
+
+.questions {
+    /* border: solid 1px; */
+    margin: 60px;
+}
+
+.questions>h1 {
+    font-family: Raleway;
+    font-weight: 700;
+    size: 40px;
+    line-height: 80px;
+}
+
+.qs {
+    display: flex;
+    gap: 150px;
+
+}
+
+.qs-1,
+.qs-2 {
+    /* border: solid 1px; */
+    line-height: 70px;
+    font-family: sans-serif;
+    /* font-weight: 600; */
+    size: 24px;
+    line-height: 52px;
+    font-size: 18px;
+
+}
+
+.qs-1>p,
+.qs-2>p {
+    border-bottom: solid 1px #ECECEC;
+}
+
+/*MEDIA QUERY FOR QUESTIONS*/
+@media only screen and (max-width:360px){
+    .asked-questions{
+        /* border: solid 1px; */
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .qs{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.footer {
+    height: 600px;
+    background-color: #3D2010;
+}
+
+.footer-1 {
+
+    height: 600px;
+    display: flex;
+    gap: 50px;
+    padding-left: 200px;
+    padding-top: 70px;
+    background-color: #3D2010;
+    color: white;
+}
+
+.footer-1>div>ul {
+    list-style-type: none;
+}
+
+.footer-1>div>ul>li {
+    list-style-type: none;
+    line-height: 35px;
+}
+
+.footer-1>div>ul>li:nth-child(1) {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.clove {
+    width: 100px;
+    height: 150px;
+    margin-left: 500px;
+
+}
+
+/*MEDIA QUERY FOR FOOTER*/
+@media only screen and (max-width:360px){
+    .footer{
+        /* border: solid 1px; */
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        padding: 0;
+        
+    }
+    .footer-1>div,.footer-2>div{
+        border-bottom: solid 1px white;
+        border-width: 100%;
+    }
+}
+
+/* @media only screen and (max-width:360px){
+    .clovedental-website{
+        border: solid 1px;
+        height:max-content;
+    }
+} */
